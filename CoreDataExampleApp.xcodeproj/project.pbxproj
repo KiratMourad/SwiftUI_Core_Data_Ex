@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0450A4D42B8234BD00DA7F1D /* CoreDataExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4D32B8234BD00DA7F1D /* CoreDataExampleAppApp.swift */; };
+		0450A4D42B8234BD00DA7F1D /* CoreDataExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4D32B8234BD00DA7F1D /* CoreDataExampleApp.swift */; };
 		0450A4D62B8234BD00DA7F1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4D52B8234BD00DA7F1D /* ContentView.swift */; };
 		0450A4D82B8234BF00DA7F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0450A4D72B8234BF00DA7F1D /* Assets.xcassets */; };
 		0450A4DB2B8234BF00DA7F1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0450A4DA2B8234BF00DA7F1D /* Preview Assets.xcassets */; };
-		0450A4E52B8234BF00DA7F1D /* CoreDataExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4E42B8234BF00DA7F1D /* CoreDataExampleAppTests.swift */; };
-		0450A4EF2B8234BF00DA7F1D /* CoreDataExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4EE2B8234BF00DA7F1D /* CoreDataExampleAppUITests.swift */; };
-		0450A4F12B8234BF00DA7F1D /* CoreDataExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4F02B8234BF00DA7F1D /* CoreDataExampleAppUITestsLaunchTests.swift */; };
+		0450A4FF2B82359E00DA7F1D /* Person.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0450A4FD2B82359E00DA7F1D /* Person.xcdatamodeld */; };
+		0450A50D2B823AF200DA7F1D /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A50B2B823AF200DA7F1D /* Person+CoreDataClass.swift */; };
+		0450A50E2B823AF200DA7F1D /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A50C2B823AF200DA7F1D /* Person+CoreDataProperties.swift */; };
+		0450A5102B823ECB00DA7F1D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A50F2B823ECB00DA7F1D /* DataManager.swift */; };
+		0450A5162B82447500DA7F1D /* ColorHexadecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450A5152B82447400DA7F1D /* ColorHexadecimal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +37,17 @@
 
 /* Begin PBXFileReference section */
 		0450A4D02B8234BD00DA7F1D /* CoreDataExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0450A4D32B8234BD00DA7F1D /* CoreDataExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleAppApp.swift; sourceTree = "<group>"; };
+		0450A4D32B8234BD00DA7F1D /* CoreDataExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleApp.swift; sourceTree = "<group>"; };
 		0450A4D52B8234BD00DA7F1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0450A4D72B8234BF00DA7F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0450A4DA2B8234BF00DA7F1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0450A4E02B8234BF00DA7F1D /* CoreDataExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0450A4E42B8234BF00DA7F1D /* CoreDataExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleAppTests.swift; sourceTree = "<group>"; };
 		0450A4EA2B8234BF00DA7F1D /* CoreDataExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0450A4EE2B8234BF00DA7F1D /* CoreDataExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleAppUITests.swift; sourceTree = "<group>"; };
-		0450A4F02B8234BF00DA7F1D /* CoreDataExampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0450A4FE2B82359E00DA7F1D /* Person.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Person.xcdatamodel; sourceTree = "<group>"; };
+		0450A50B2B823AF200DA7F1D /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0450A50C2B823AF200DA7F1D /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0450A50F2B823ECB00DA7F1D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0450A5152B82447400DA7F1D /* ColorHexadecimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHexadecimal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +78,9 @@
 		0450A4C72B8234BD00DA7F1D = {
 			isa = PBXGroup;
 			children = (
+				0450A50B2B823AF200DA7F1D /* Person+CoreDataClass.swift */,
+				0450A50C2B823AF200DA7F1D /* Person+CoreDataProperties.swift */,
 				0450A4D22B8234BD00DA7F1D /* CoreDataExampleApp */,
-				0450A4E32B8234BF00DA7F1D /* CoreDataExampleAppTests */,
-				0450A4ED2B8234BF00DA7F1D /* CoreDataExampleAppUITests */,
 				0450A4D12B8234BD00DA7F1D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,10 +98,13 @@
 		0450A4D22B8234BD00DA7F1D /* CoreDataExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				0450A4D32B8234BD00DA7F1D /* CoreDataExampleAppApp.swift */,
+				0450A5142B82447400DA7F1D /* Library */,
+				0450A5112B82420C00DA7F1D /* Manager */,
+				0450A4D32B8234BD00DA7F1D /* CoreDataExampleApp.swift */,
 				0450A4D52B8234BD00DA7F1D /* ContentView.swift */,
 				0450A4D72B8234BF00DA7F1D /* Assets.xcassets */,
 				0450A4D92B8234BF00DA7F1D /* Preview Content */,
+				0450A4FD2B82359E00DA7F1D /* Person.xcdatamodeld */,
 			);
 			path = CoreDataExampleApp;
 			sourceTree = "<group>";
@@ -110,21 +117,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0450A4E32B8234BF00DA7F1D /* CoreDataExampleAppTests */ = {
+		0450A5112B82420C00DA7F1D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				0450A4E42B8234BF00DA7F1D /* CoreDataExampleAppTests.swift */,
+				0450A50F2B823ECB00DA7F1D /* DataManager.swift */,
 			);
-			path = CoreDataExampleAppTests;
+			path = Manager;
 			sourceTree = "<group>";
 		};
-		0450A4ED2B8234BF00DA7F1D /* CoreDataExampleAppUITests */ = {
+		0450A5142B82447400DA7F1D /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				0450A4EE2B8234BF00DA7F1D /* CoreDataExampleAppUITests.swift */,
-				0450A4F02B8234BF00DA7F1D /* CoreDataExampleAppUITestsLaunchTests.swift */,
+				0450A5152B82447400DA7F1D /* ColorHexadecimal.swift */,
 			);
-			path = CoreDataExampleAppUITests;
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0450A4D62B8234BD00DA7F1D /* ContentView.swift in Sources */,
-				0450A4D42B8234BD00DA7F1D /* CoreDataExampleAppApp.swift in Sources */,
+				0450A5102B823ECB00DA7F1D /* DataManager.swift in Sources */,
+				0450A50E2B823AF200DA7F1D /* Person+CoreDataProperties.swift in Sources */,
+				0450A5162B82447500DA7F1D /* ColorHexadecimal.swift in Sources */,
+				0450A50D2B823AF200DA7F1D /* Person+CoreDataClass.swift in Sources */,
+				0450A4FF2B82359E00DA7F1D /* Person.xcdatamodeld in Sources */,
+				0450A4D42B8234BD00DA7F1D /* CoreDataExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0450A4E52B8234BF00DA7F1D /* CoreDataExampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0450A4F12B8234BF00DA7F1D /* CoreDataExampleAppUITestsLaunchTests.swift in Sources */,
-				0450A4EF2B8234BF00DA7F1D /* CoreDataExampleAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +591,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0450A4FD2B82359E00DA7F1D /* Person.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0450A4FE2B82359E00DA7F1D /* Person.xcdatamodel */,
+			);
+			currentVersion = 0450A4FE2B82359E00DA7F1D /* Person.xcdatamodel */;
+			path = Person.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0450A4C82B8234BD00DA7F1D /* Project object */;
 }
